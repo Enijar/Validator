@@ -1,0 +1,2 @@
+# Validator
+Simple JavaScript Validation
