@@ -201,18 +201,22 @@ var validator = new _Validator2.default();
 var schema = {
     email: {
         label: 'Email',
+        value: '',
         rules: [validator.rules.required, validator.rules.email, validator.rules.max(255)]
     },
     firstName: {
         label: 'First Name',
+        value: '',
         rules: [validator.rules.required, validator.rules.max(20)]
     },
     lastName: {
         label: 'Last Name',
+        value: '',
         rules: [validator.rules.required, validator.rules.max(20)]
     },
     pin: {
         label: 'PIN',
+        value: '',
         rules: [validator.rules.required, validator.rules.min(4), validator.rules.max(4)]
     }
 };
